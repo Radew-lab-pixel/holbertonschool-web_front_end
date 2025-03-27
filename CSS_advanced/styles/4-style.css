@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    color: var(--font-family-base) ;
+    color: #161616 ;
+    font-family: var(--font-family-base);
 }
 
 a {
@@ -32,4 +33,8 @@ a {
 
         --font-family-base:"Helvetica Neue", Helvetica, Arial, san-serif;
         --font-family-title:"Helvetica Neue", Helvetica, Arial, san-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
 }
