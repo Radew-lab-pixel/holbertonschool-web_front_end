@@ -186,7 +186,7 @@ a:active {
     padding:var(--footer-padding)
 }
 
-.row {
+.row ul{
     margin: 0;
     padding: 0;
     list-style: none;    
