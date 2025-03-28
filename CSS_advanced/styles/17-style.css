@@ -77,8 +77,8 @@ a {
 
         --section-padding:5rem 0;
         --section-header-padding:0 0 3rem;
-        --section-body-padding:0 0 3rem;
-        --section-footer-padding:3rem 0 0;
+        --section-body-padding: 0 0 3rem;
+        --section-footer-padding: 3rem 0 0;
         --section-footer-align:center;
         --footer-padding:5rem 0 0;
                 
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-footer {
-    padding:var(--section-footer-padding;
+    padding:var(--section-footer-padding);
 }
 
 .section-title {
@@ -137,5 +137,5 @@ a:active {
 }
 
 .footer {
-    padding:var(--footer-padding);
+    padding:var(--footer-padding)
 }
