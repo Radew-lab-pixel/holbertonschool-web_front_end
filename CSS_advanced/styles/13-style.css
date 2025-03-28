@@ -84,10 +84,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-/* Ensure anchor elements with href are targeted */
-a[href] {
-    /* existing styles */
-}
 
 /* Visited state - italicize text */
 a[href]:visited {
