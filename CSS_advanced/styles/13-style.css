@@ -84,18 +84,18 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+a[href] {
+    /* existing styles */
+}
 
-/* Visited state - italicize text */
 a[href]:visited {
     font-style: italic;
 }
 
-/* Hover state - add underline */
 a[href]:hover {
     text-decoration: underline;
 }
 
-/* Active state - set background color */
 a[href]:active {
     background-color: var(--color-light-grey);
 }
