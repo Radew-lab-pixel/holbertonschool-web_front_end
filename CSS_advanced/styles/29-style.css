@@ -176,6 +176,8 @@ a:active {
     text-align: center;
 }
 
+
+
 .nav .nav-item{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -196,8 +198,12 @@ a:active {
 }
 
 .nav .nav-link:hover{
-    /* color:var(--nav-item-link-hover) */
-    color: var(--color-white)
+    color:var(--nav-item-link-hover)
+}
+
+
+.nav .nav-item-link-hover{
+    color: var(--color-white);
 }
 
 .nav .nav-link::before{
@@ -207,16 +213,17 @@ a:active {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 0.20rem;
+    height: 20%;
 }
 
-.nav .nav-item .nav-link::before{
+.nav .nav-item:hover .nav-link::before{
     background-color: var(--color-primary);
     width: 100%;
 }
 
+
 .footer {
-    padding: var(--footer-padding)
+    padding:var(--footer-padding)
 }
 
 ul.row{
