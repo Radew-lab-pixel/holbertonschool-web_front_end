@@ -218,5 +218,6 @@ ul.row{
     /* content: none; */
     content:"";
     display: table;
-    float:none;
+    /* float:none; */
+    clear:both;
 }
