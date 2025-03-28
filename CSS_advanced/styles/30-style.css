@@ -406,7 +406,7 @@ ul.row{
     display: block;
     text-decoration: none;
     padding-top: 45%;
-    position:absolute;
+    position: absolute;
 }
 
 .card-work .card-title::after{
