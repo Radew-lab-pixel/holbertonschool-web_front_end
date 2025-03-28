@@ -197,7 +197,7 @@ a:active {
 
 .nav .nav-link:hover{
     /* color:var(--nav-item-link-hover) */
-    color:var(--color-white)
+    color: var(--color-white)
 }
 
 .nav .nav-link::before{
@@ -216,7 +216,7 @@ a:active {
 }
 
 .footer {
-    padding:var(--footer-padding)
+    padding: var(--footer-padding)
 }
 
 ul.row{
