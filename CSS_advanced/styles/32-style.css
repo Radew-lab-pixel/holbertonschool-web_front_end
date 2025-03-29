@@ -244,6 +244,7 @@ ul.row{
     width: 33.33%;
     /* float: left;
     padding: 0.5rem; */
+    /*width: 2%; */
 }
 
 .col-1-2 {
@@ -400,9 +401,13 @@ ul.row{
 .card-work .card-image img{
     height: 30rem;
     width: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
     /*bottom: 0;*/
     vertical-align: bottom;
+    
+    object-fit: cover;
+    /* height: 10rem;
+    width: 20%; */
 }
 
 .card-work .card-inner{
